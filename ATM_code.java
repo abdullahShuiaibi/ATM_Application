@@ -153,7 +153,8 @@ public class ATM_code
  {
   DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
   LocalDateTime now = LocalDateTime.now();  
-  JOptionPane.showMessageDialog(null,"Helllo: "+name+"\nDate: "+dtf.format(now)+"\nBalance: $"+saved_balance+"\nLast Deposit: $"+last_deposit+"\nLast withdrawl: $"+last_withdraw+"\n\n-------------------------------------------\nFounder and ceo: Abdullah shuiaibi");
+  JOptionPane.showMessageDialog(null,"Helllo: "+name+"\nDate: "+dtf.format(now)+"\nBalance: $"+saved_balance+"\nLast Deposit: $"+last_deposit+"\nLast withdrawl: $"+last_withdraw+
+  "\n\n-------------------------------------------\nFounder and ceo: Abdullah shuiaibi");
  
  }
  
@@ -311,7 +312,8 @@ public class ATM_code
         saved_balance = Double.parseDouble(balance);
     }
    saved_pin = pin1 ;
-   JOptionPane.showMessageDialog(null,"You have successfuly created an account\nYour account balance is: $"+saved_balance+"\n\nThank you for working with tron bank\n--------------------------------------------------------\nFounder and Ceo: Abdullah Shuiaibi");
+   JOptionPane.showMessageDialog(null,"You have successfuly created an account\nYour account balance is: $"+saved_balance+"\n\nThank you for working with tron bank"+
+   "\n--------------------------------------------------------\nFounder and Ceo: Abdullah Shuiaibi");
 
  }
  public static void startup_page()
@@ -420,7 +422,8 @@ public class ATM_code
     }
     if (pin_counter > 2)
     {
-     JOptionPane.showMessageDialog(null,"You have enterd the wrong pin to many times\nPlease create an account if you have not done so\n\nIf it still does not work please contact the bank\n\nPhone: 1-(919)-212-313");
+     JOptionPane.showMessageDialog(null,"You have enterd the wrong pin to many times\nPlease create an account if you have not done so\n\nIf it still does not work please contact "+
+     "the bank\n\nPhone: 1-(919)-212-313");
      continue;
      
      
